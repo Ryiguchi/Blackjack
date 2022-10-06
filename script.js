@@ -124,8 +124,6 @@ const resetGame = function () {
   dealerMoneyEl.textContent = '100,000';
   playerCash = 25000;
   dealerCash = 100000;
-  // messageBoxText.textContent = 'Place your bet!';
-  // messageBoxEl.classList.remove('hidden');
   betAmount = 0;
 };
 
@@ -146,10 +144,6 @@ const resetHand = function () {
   scores = [0, 0];
   dealerScoreText.textContent = 0;
   playerScoreText.textContent = 0;
-  // playerScoreElPosition = 11;
-  // dealerScoreElPosition = 11;
-  // playerScoreEl.style.left = '12rem';
-  // dealerScoreEl.style.left = '12rem';
 
   //hide messaages
   // messageBoxEl.classList.add('hidden');
@@ -236,8 +230,6 @@ const checkForBust = function (player) {
 
 // FUNCTION - DISPLAYS A MESSAGE TO PRESS DEAL TO PLAY
 const pressDealToPlay = function () {
-  // messageBoxText.textContent = 'Place your bet!';
-  // messageBoxEl.classList.remove('hidden');
   state = 'betting';
 };
 
@@ -312,7 +304,6 @@ dealBtn.addEventListener('click', function () {
       compareScores();
       cardsImgEl[1].src = `img/cards/${deck[1][0]}-${deck[1][1]}.svg`;
       cardsImgEl[1].classList.remove('hidden');
-    } else {
     }
   } else window.alert('You have to place a bet!!');
 });
