@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>♠️ Play BlackJack</title>
+  </head>
+  <body>
+    <div class="table">
+      <img src="img/shoe.png" alt="Card shoe" class="shoe" />
+      <section class="dealers-cards-grid">
+        <div class="dealers-cards">
+          <div class="dealer-score card-count">
+            <span class="dealer-count">0</span>
+          </div>
+          <img
+            class="cards dealer-1 hidden"
+            src="img/cards/back.png"
+            alt="Card"
+          />
+          <img class="cards dealer-2 hidden" src="" alt="Card" />
+          <img class="cards dealer-3 hidden" src="" alt="Card" />
+          <img class="cards dealer-4 hidden" src="" alt="Card" />
+          <img class="cards dealer-5 hidden" src="" alt="Card" />
+          <img class="cards dealer-6 hidden" src="" alt="Card" />
+        </div>
+        <div class="dealer-money-box money-box">
+          <span class="money-text"> Dealer: </span>
+          <span class="dealer-money-amount money-amount"> </span>
+        </div>
+      </section>
+
+      <section class="pop-up-grid">
+        <section class="bet-box-grid">
+          <div class="bet-box">
+            <span class="bet-amount"> </span>
+          </div>
+        </section>
+        <div class="pop-up-box">
+          <span class="pop-up-message"> Place your bet and press "DEAL"! </span>
+        </div>
+      </section>
+
+      <section class="players-cards-grid">
+        <div class="player-score card-count">
+          <span class="player-count">0</span>
+        </div>
+        <div class="players-cards">
+          <img class="cards player-1 hidden" src="" alt="Card" />
+          <img class="cards player-2 hidden" src="" alt="Card" />
+          <img class="cards player-3 hidden" src="" alt="Card" />
+          <img class="cards player-4 hidden" src="" alt="Card" />
+          <img class="cards player-5 hidden" src="" alt="Card" />
+          <img class="cards player-6 hidden" src="" alt="Card" />
+        </div>
+        <div class="player-money money-box">
+          <span class="money-text"> Player: </span>
+          <span class="player-money-amount money-amount"> </span>
+        </div>
+      </section>
+      <section class="bottom-box">
+        <div class="btn-container">
+          <button class="action-btns btn-deal">DEAL</button>
+          <button class="action-btns btn-split">SPLIT</button>
+          <button class="action-btns btn-double">DOUBLE</button>
+          <button class="action-btns btn-stand">STAND</button>
+          <button class="action-btns btn-hit">HIT</button>
+        </div>
+
+        <div class="chips-container">
+          <button class="chip-btn btn-5">
+            <img src="img/chips/5.png" class="chip chip-5" alt="5 Chip" />
+          </button>
+          <button class="chip-btn btn-25">
+            <img src="img/chips/25.png" class="chip chip-25" alt="25 Chip" />
+          </button>
+          <button class="chip-btn btn-100">
+            <img src="img/chips/100.png" class="chip chip-100" alt="100 Chip" />
+          </button>
+          <button class="chip-btn btn-500">
+            <img
+              src="img/chips/500.png"
+              class="chip chip-500"
+              alt="500   Chip"
+            />
+          </button>
+          <button class="chip-btn btn-1000">
+            <img
+              src="img/chips/1000.png"
+              class="chip chip-1000"
+              alt="1000 Chip"
+            />
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
