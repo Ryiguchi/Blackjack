@@ -1,0 +1,1 @@
+I started this project when I first began to learn javascript.  Its an ongoing project that needs lots of work but the game works, for the most part.
