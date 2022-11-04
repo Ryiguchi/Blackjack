@@ -1,5 +1,5 @@
 {
-  "img": "img\blackjack.png",
+  "img": "img/blackjack.png",
   "title": "BlackJack",
   "titleText": "My first game! Play against the dealer and see if its your lucky day!",
   "modalTitle": "BlackJack",
