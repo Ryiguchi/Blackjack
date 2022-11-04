@@ -1,10 +1,15 @@
 {
   "img": "img/blackjack.png",
+  "alt": "Picture of my BlackJack game",
   "title": "BlackJack",
   "titleText": "My first game! Play against the dealer and see if its your lucky day!",
   "modalTitle": "BlackJack",
   "category": "Game",
   "tech": "HTML, CSS & JavaScript",
   "modalText": "This is my first attempt at a game when I had very little knowledge of JavaScript. The game needs some design and responsivness work but the logic is sound.",
-  "num": 5
+  "num": 5,
+  "type": "desktop",
+  "className": "bj",
+  "gitHub": "https://github.com/Ryiguchi/blackjack-game",
+  "link": "https://ryiguchi.github.io/blackjack-game"
 }
